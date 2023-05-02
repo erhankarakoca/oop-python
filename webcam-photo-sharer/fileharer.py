@@ -1,3 +1,5 @@
+from filestack import Client
+"""Fix filestack : does not have free plan anymore"""
 class FileSharer:
 
     def __init__(self, filepath, api_key=""):
