@@ -1,4 +1,5 @@
 import yagmail
+import pandas
 
 email = yagmail.SMTP(user="developertools.cool@gmail.com", password="pxhlbhwbbzthodrb")
 
