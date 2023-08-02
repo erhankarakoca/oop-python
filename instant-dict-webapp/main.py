@@ -12,6 +12,7 @@ for obj in imports:
         if issubclass(obj, page.Page) and obj is not page.Page:
             jp.Route(obj.path, obj.serve)
 
+           print()
 
 jp.justpy(port=8001)
 
